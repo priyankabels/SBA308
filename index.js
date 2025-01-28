@@ -167,7 +167,8 @@ const CourseInfo = {
         }
     });
     //This will give percentage
-    average=(weightedScore / totalPoints) * 100;
+    average=((weightedScore / totalPoints)* 100)
+  
     return average;
   }
 
